@@ -1,0 +1,48 @@
+/**
+ * These are public-facing CSS
+ * www.knowhalim.com
+ */
+
+#tourhand_result_txt, .tourhand_the_answer,.tourhand_the_question,.tourhand_qn_form{
+	font-family: var(--global-body-font-family);
+    color: var(--global-palette4);
+}
+.tourhand_qn_form{
+	border:1px solid var(--global-palette6);
+	display:inline-block;
+	padding:10px 18px;
+	min-width:200px;
+	width: 100%;
+}
+
+.tourhand_start_btn,.tourhand_nextbtn,.tourhand_submitbtn{
+	background-color:var(--global-palette1);
+	color:var(--global-palette9);
+	cursor:pointer;
+	display:inline-block;
+	padding:10px 18px;
+	margin-top:20px;
+}
+.tourhand_start_btn:hover,.tourhand_nextbtn:hover,.tourhand_submitbtn:hover{
+	
+	background-color:var(--global-palette2);
+}
+.tourhand_start_message{
+	background-color: var(--global-palette8);
+    padding: 10px 15px;
+}
+.tourhand_start_text {
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.tourhand_qn {
+   	font-weight:600;
+}
+.tourhand_option_list {
+    text-transform: capitalize;
+}
+
+span#tourhand_pg_credit{
+	font-size:12px;
+}
+
